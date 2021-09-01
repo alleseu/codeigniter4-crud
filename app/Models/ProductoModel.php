@@ -64,7 +64,8 @@ class ProductoModel extends Model {
 		
 		$sql = "SELECT COUNT(prId) AS busqueda
 				FROM producto
-				WHERE prCodigo = ?";
+				WHERE prCodigo = ?
+				  AND prDeleted IS NULL";
 
 		$query =$this->db->query($sql, [$codigo]);
 
@@ -92,7 +93,8 @@ class ProductoModel extends Model {
 		$sql = "SELECT COUNT(prId) AS busqueda
 				FROM producto
 				WHERE prCodigo = ?
-				  AND prId != ?";
+				  AND prId != ?
+				  AND prDeleted IS NULL";
 
 		$query = $this->db->query($sql, [$codigo, $id]);
 
