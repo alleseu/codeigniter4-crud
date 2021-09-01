@@ -7,6 +7,13 @@
 
 ---
 
+### Requisitos para ejecutar el mantenedor
+
+* Debe crear una base de datos en Mysql con el nombre `crud`.
+* Luego importar el archivo `database.sql` ubicado en el directorio `resources`.
+
+---
+
 ### Link importantes del Framework
 
 * [http://codeigniter.com]  Sitio oficial.
