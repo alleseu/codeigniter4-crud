@@ -1,4 +1,4 @@
-# Mantenedor básico - PHP CodeIgniter 4 Framework
+# Mantenedor Web - PHP CodeIgniter 4 Framework
 
 * Autor: `Alejandro Alberto Sánchez Iturriaga`
 * Fecha: `Junio 2020`
@@ -9,8 +9,9 @@
 
 ### Requisitos para ejecutar el mantenedor
 
-* Debe crear una base de datos en Mysql con el nombre `crud`.
-* Luego importar el archivo `database.sql` ubicado en el directorio `resources`.
+* Clonar proyecto con el nombre del repositorio por defecto, o si lo renombra, debe cambiar la url base del archivo `App.php` ubicado en el directorio `app/Config`, por el nuevo nombre.
+* Crear una base de datos en Mysql con el nombre `crud`.
+* Luego, importar el archivo `database.sql` ubicado en el directorio `resources`.
 
 ---
 
