@@ -86,7 +86,7 @@ class ProductoModel extends Model {
 
 
 	//FUNCIÓN QUE BUSCA SI ESTÁ REGISTRADO EL CÓDIGO DEL PRODUCTO, DESCARTANDO UN IDENTIFICADOR ESPECÍFICO. (RETORNA LA CANTIDAD DE REGISTROS).
-	public function buscarCodigoIdentificador($id, $codigo) {
+	public function buscarCodigoFiltrado($id, $codigo) {
 
 		$busqueda = 0;  //Inicialmente el resultado de la búsqueda es (0).
 		

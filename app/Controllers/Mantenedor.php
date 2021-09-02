@@ -226,7 +226,7 @@ class Mantenedor extends BaseController {
 					$productoModel = new ProductoModel();
 
 					//LLAMA A LA FUNCIÓN QUE BUSCA SI ESTÁ REGISTRADO EL CÓDIGO DEL PRODUCTO, DESCARTANDO UN IDENTIFICADOR ESPECÍFICO. (RETORNA LA CANTIDAD DE REGISTROS).
-					$busqueda = $productoModel->buscarCodigoIdentificador($id, $codigo);
+					$busqueda = $productoModel->buscarCodigoFiltrado($id, $codigo);
 
 					if ($busqueda == 0) {
 
