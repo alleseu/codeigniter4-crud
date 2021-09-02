@@ -126,7 +126,9 @@ $(function() {
 		columns: [
 			{data:"codigo"},
 			{data:"producto"},
-			{data:"nombreCategoria"}
+			{data:"nombreCategoria"},
+			{data:"fechaCreacion"},
+			{data:"fechaActualizacion"}
 		],
 		language: {
 			"decimal": "",

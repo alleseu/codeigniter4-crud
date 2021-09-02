@@ -1,7 +1,7 @@
 # Mantenedor Web - PHP CodeIgniter 4 Framework
 
 * Autor: `Alejandro Alberto Sánchez Iturriaga`
-* Fecha: `Junio 2020`
+* Fecha de actualización: `02-09-2021`
 * PHP versión: `7.4.10`
 * CodeIgniter versión: `4.0`
 
