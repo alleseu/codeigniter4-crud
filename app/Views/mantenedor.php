@@ -77,6 +77,8 @@
 							<th>CÓDIGO</th>
 							<th>PRODUCTO</th>
 							<th>CATEGORÍA</th>
+							<th>FECHA CREACIÓN</th>
+							<th>FECHA ACTUALIZACIÓN</th>
 						</tr>
 					</thead>
 					<tfoot>
@@ -84,6 +86,8 @@
 							<th>CÓDIGO</th>
 							<th>PRODUCTO</th>
 							<th>CATEGORÍA</th>
+							<th>FECHA CREACIÓN</th>
+							<th>FECHA ACTUALIZACIÓN</th>
 						</tr>
 					</tfoot>
 				</table>
