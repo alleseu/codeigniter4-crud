@@ -1,17 +1,16 @@
-# Mantenedor Web - PHP CodeIgniter 4 Framework
+# Aplicación Web - PHP CodeIgniter 4 Framework
 
 * Autor: `Alejandro Alberto Sánchez Iturriaga`
-* Fecha de actualización: `02-09-2021`
+* Fecha de actualización: `03-09-2021`
 * PHP versión: `7.4.10`
-* CodeIgniter versión: `4.0`
+* CodeIgniter versión: `4.0.2`
 
 ---
 
-### Requisitos para ejecutar el mantenedor
+### Requisitos para ejecutar la aplicación
 
-* Clonar proyecto con el nombre del repositorio por defecto, o si lo renombra, debe cambiar la url base del archivo `App.php` ubicado en el directorio `app/Config`, por el nuevo nombre.
-* Crear una base de datos en Mysql con el nombre `crud`.
-* Luego, importar el archivo `database.sql` ubicado en el directorio `resources`.
+* Clonar proyecto con el nombre del repositorio por defecto. Si desea renombrarlo, debe cambiar la url base del archivo `App.php` ubicado en el directorio `app/Config`, por el nuevo nombre.
+* Crear una base de datos en Mysql con el nombre `crud`. Luego, debe importar el archivo `database.sql` ubicado en el directorio `resources`.
 
 ---
 
@@ -19,7 +18,7 @@
 
 * [http://codeigniter.com]  Sitio oficial.
 * [https://github.com/codeigniter4/CodeIgniter4]  Repositorio en github.
-* [https://codeigniter4.github.io/userguide/]  Guía del usuario.
+* [https://codeigniter4.github.io/userguide/]  Documentación.
 * [http://forum.codeigniter.com]  Foro de la comunidad.
 
 ---
